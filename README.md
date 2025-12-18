@@ -1,1 +1,1 @@
-Detta är de steg som jag tar mig igenom för att lära mg embedded med c
+Detta är de steg som jag tar mig igenom för att lära mg embedded med C.
