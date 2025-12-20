@@ -11,3 +11,23 @@ Förstå grundläggande datatyper i C och hur de skrivs ut.
 
 ## Embedded-koppling
 Rätt datatyp är viktigt för minne, register och prestanda i MCU:er.
+
+Q
+
+1. Varför är unsigned int lämpligt för spänning i mV?
+
+2. Vad händer om man använder fel printf-format?
+
+3. Ändrar printf värdet på variabeln?
+
+4. Varför kan float vara “dyrt” i embedded-system?
+
+A
+
+1. Får bara positiva tal.
+
+2. Om man använder fel printf-format uppstår odefinierat beteende.
+
+3. printf ändrar aldrig värdet på variabeln.
+
+4. Flyttalsoperationer kräver fler CPU-cykler och ibland mjukvaruemulering om FPU saknas.
